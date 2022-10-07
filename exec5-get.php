@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/estilo.css"/> 
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css2/bootstrap.css">
+    <link rel="stylesheet" href="assets/css2/bootstrap.min.css">
     <style>
         span.aprovado{
             color: green;
@@ -24,7 +24,7 @@
     <title>Validando Maioridade Resultado</title>
 </head>
 <body>
-    <?php include('../cabecalho2.php');
+    <?php include('cabecalho2.php');
      
             $nome = isset($_GET['nome'])?$_GET['nome']:'Não enviado';
             $dataNasc = isset($_GET['nasc'])?$_GET['nasc']:'1900-01-01';
@@ -62,6 +62,6 @@
             <a href="exec5.php" class="btn">Voltar</a>
         </div>
     </div>
-    <?php include('../footer.php'); ?>
+    <?php include('footer.php'); ?>
 </body>
 </html>

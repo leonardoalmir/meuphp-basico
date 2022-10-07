@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/estilo.css"/> 
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css2/bootstrap.css">
+    <link rel="stylesheet" href="assets/css2/bootstrap.min.css">
     <title>Texto Formatado</title>
     <style>
         <?php 
@@ -21,7 +21,7 @@
     </style>
 </head>
 <body>
-    <?php include('../cabecalho2.php'); ?>
+    <?php include('cabecalho2.php'); ?>
     <div class="layoutBackground">
         <div class="layoutBoard">
             <fieldset>
@@ -32,6 +32,6 @@
             <a href="exec3.php" class="btn">Voltar</a>
         </div>
     </div>
-    <?php include('../footer.php'); ?>
+    <?php include('footer.php'); ?>
 </body>
 </html>

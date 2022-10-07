@@ -12,8 +12,10 @@
     <!-- <meta http-equiv="refresh" content="15;url=https://www.chromos.com.br" /> --> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Trás o arquivo CSS -->
-    <link rel="stylesheet" type="text/css" href="../meuhtml/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css2/style.css">
+    <link rel="stylesheet" href="assets/css/estilo.css"/> 
+    <link rel="stylesheet" href="assets/css2/bootstrap.css">
+    <link rel="stylesheet" href="assets/css2/bootstrap.min.css">
     <!-- Trás o arquivo JavaScript -->
     <script type="text/javascript" src="script.js"></script>
     <!-- Trás a descrição que é exibida nos navegadores -->
@@ -41,7 +43,7 @@
 </head>
 <body>
     <?php 
-        include('cabecalho.php');
+        include('cabecalho2.php');
     ?>
     <div class="nav-logo">
         <!-- LOGO BACANA TAMBÉM
@@ -71,15 +73,12 @@
         </ul>
     </div>
 
-    <div class="box-center">
-        <!-- Imagem com um contador
+    <!-- <div class="box-center">
+        Imagem com um contador
         <img class="cronometro" data-imagetype="External" src="https://dfimage.com/email-image/129668/0Art8l/?em=[email]" width="80%">
-        -->
-    </div>
-    <div class="footer">
-        <?php include('footer.php'); ?>
-    </div>
-    
+       
+    </div> -->
+    <?php include('footer.php'); ?>
 </body>
 </html>
 

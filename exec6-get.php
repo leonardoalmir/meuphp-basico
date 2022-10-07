@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/estilo.css"/> 
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css2/bootstrap.css">
+    <link rel="stylesheet" href="assets/css2/bootstrap.min.css">
     <title>Calculadora Simples</title>
 </head>
 <body>
-    <?php include('../cabecalho2.php');
+    <?php include('cabecalho2.php');
      
      ?>
     <div class="layoutBackground">
@@ -94,6 +94,6 @@
             <a href="exec6.php" class="btn">Menu Principal</a>
         </div>
     </div>
-    <?php include('../footer.php'); ?>
+    <?php include('footer.php'); ?>
 </body>
 </html>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="assets/css/estilo.css"/>
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/estilo.css"/> 
+    <link rel="stylesheet" href="assets/css2/bootstrap.css">
+    <link rel="stylesheet" href="assets/css2/bootstrap.min.css">
     <!-- Trás font do Google (link) -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
@@ -11,7 +11,7 @@
   <title>Teste Staff</title>
 </head>
 <body>
-<?php  include('../cabecalho2.php'); ?>
+<?php  include('cabecalho2.php'); ?>
     <div class="layoutBackground">
         <?php
         /*
@@ -59,7 +59,7 @@
             </div>
     </div>
     <div class="footer">
-        <?php include('../footer.php'); ?>
+        <?php include('footer.php'); ?>
     </div>
 </body>
 </html>
