@@ -1,0 +1,134 @@
+
+div.layoutBackground {
+    background: rgba(0,0,0,.6) url("wallpaper-tranquilo-720.jpg") no-repeat top center fixed;
+    background-blend-mode: overlay;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+div.layoutBoard::before {
+    content: " Ambiente de teste PHP - L3O S7YNN3R  ";
+    text-align: center;
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #273747;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 801px;
+}
+
+div.layoutBoard {
+    background-color: rgba(255,255,255,.8);
+    margin: 140px auto 100px auto;
+    padding: 10px;
+    width: 800px;
+    min-height:400px;
+}
+
+a.btn {
+    color: #252525;
+    text-decoration: none;
+    font-weight: bold;
+    font: 8pt Helvetica;
+    background-color: #cccccc;
+    padding: 7px;
+    margin-top: 7px;
+    border-radius: 4%;
+    position: absolute;
+    border-color: #51687e;
+}
+
+input.btn {
+    color: #f2f8ff;
+    text-decoration: none;
+    font-weight: bold;
+    font: 10pt Helvetica;
+    background-color: #273747;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5%;
+}
+
+input.btn:hover {
+    color: #fff;
+    background-color: #1a4269;
+    font: 11pt Helvetica;
+    box-shadow: 5px 2px 2px rgb(102, 102, 102);
+}
+
+a.btn:hover {
+    color: #fff;
+    background-color: #3da0ad;
+    font: 9pt Helvetica;
+    box-shadow: 5px 2px 2px rgb(102, 102, 102);
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
+
+footer {
+    color: rgb(78, 235, 188);
+    background-color: rgb(24, 25, 26) ;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    position: fixed;
+    bottom: 0px;
+    width: 101%;
+    margin-bottom: 0%;
+}
+
+a.link-rodape{
+    color: rgb(78, 235, 188);
+    font-size: medium;
+    font-family: 'Source Code Pro', monospace;
+}
+a.link-rodape:hover{
+    color: rgb(8, 231, 164);
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pulse {
+    animation: pulse 0.7s infinite;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(150%);
+      font-size: 12px;
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(100%);
+      font-size: 16px; 
+    }
+    
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(150%);
+      font-size: 12px;
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(100%);
+      font-size: 16px; 
+    }
+  }
