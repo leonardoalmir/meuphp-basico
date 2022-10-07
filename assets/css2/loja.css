@@ -1,0 +1,19 @@
+body {
+    padding: 50px;
+}
+.principal {
+    padding: 40px 15pc;
+}
+.titulo {
+    text-align: center;
+    color: rgb(0, 173, 204);
+    /* OI EU SOU O GOKU */
+}
+td.conteudo {
+    text-align: left;
+    vertical-align: middle!important;
+}
+td.btn_center {
+    text-align: center;
+    vertical-align: middle!important;
+}

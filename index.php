@@ -41,7 +41,7 @@
 </head>
 <body>
     <?php 
-        include('../cabecalho.php');
+        include('cabecalho.php');
     ?>
     <div class="nav-logo">
         <!-- LOGO BACANA TAMBÉM
@@ -77,7 +77,7 @@
         -->
     </div>
     <div class="footer">
-        <?php include('../footer.php'); ?>
+        <?php include('footer.php'); ?>
     </div>
     
 </body>
